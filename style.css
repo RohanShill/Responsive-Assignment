@@ -214,13 +214,28 @@ body {
 }
 
 /* ---------------- HERO SECTION ---------------- */
+:root {
+    --temp-bg-mobile: url('//www.twoleavestea.com/cdn/shop/files/matcha_mobile.png?v=1779455800&width=1280');
+    --temp-bg-desktop: url('//www.twoleavestea.com/cdn/shop/files/cere-memorial_matcha_wide.png?v=1779304660&width=1280');
+}
+
 .hero-section {
     position: relative;
     background-color: #d1f0b6;
+    background-image: var(--temp-bg-desktop);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: calc(100vh - 100px);
     overflow: hidden;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        background-image: var(--temp-bg-mobile);
+    }
 }
 
 .hero-content {
