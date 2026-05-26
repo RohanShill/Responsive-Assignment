@@ -1240,25 +1240,7 @@ body {
 }
 .footer-columns .col a:hover { color: var(--white); }
 
-.mountain-illustration {
-    width: 100%;
-    height: 350px;
-    background-color: #c2dfff;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300"><path fill="%23c2dfff" d="M0,300 L0,150 L100,50 L200,100 L300,20 L400,120 L500,80 L600,180 L700,60 L800,160 L900,10 L1000,150 L1000,300 Z"/><path fill="none" stroke="%23000" stroke-width="2" d="M0,150 L100,50 L200,100 L300,20 L400,120 L500,80 L600,180 L700,60 L800,160 L900,10 L1000,150"/></svg>');
-    background-size: cover;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-}
-.footer-logo {
-    color: #000;
-    position: relative;
-    z-index: 2;
-}
+
 
 @media (max-width: 900px) {
     .newsletter-form-container { flex-direction: column; }
