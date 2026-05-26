@@ -1134,6 +1134,7 @@ body {
 .site-footer-new {
     width: 100%;
     background-color: #c2dfff; /* Light blue */
+    padding-bottom: 80px;
 }
 .newsletter-section {
     padding: 80px 20px;
